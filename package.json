@@ -1,0 +1,27 @@
+{
+  "name": "demo-angular-ts",
+  "version": "1.0.0",
+  "description": "basic setup for angular 1.x and typescript",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "postinstall": "tsd install"
+
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosemansp/demo-angular-ts/issues"
+  },
+  "homepage": "https://github.com/cosemansp/demo-angular-ts#readme",
+  "devDependencies": {
+    "html-loader": "^0.4.3",
+    "ts-loader": "^0.7.2",
+    "tslint": "^3.5.0",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
